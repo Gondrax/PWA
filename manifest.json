@@ -1,0 +1,17 @@
+{
+    "theme_color" : "#7ed321",
+    "background_color" : "#7ed321",
+    "display" : "fullscreen",
+    "scope" : "/",
+    "start_url" : "/PWA/",
+    "name" : "Costa Rica Guide",
+    "short_name" : "CostaRica",
+    "description" : "Projekt WSB Bydgoszcz",
+    "icons" : [
+        {
+            "src" : "./img/icon/png",
+            "sizes" : "512x512", 
+            "type" : "image/png"
+        }
+    ]
+    }

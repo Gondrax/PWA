@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie 1</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            padding: 10px;
+            transition-duration: .5s;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        li:hover:nth-child(odd) {
+            background-color: rgba(255, 192, 203, 0.8);
+        }
+
+        li:hover:nth-child(even) {
+            background-color: rgba(173, 216, 230, 0.8);
+        }
+
+        li:hover::before {
+            content: "";
+            display: inline-block;
+            background-color: orangered;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- pseudoklasy - odwołanie przez : -->
+    <!-- pseudoelementy - odwołanie przez :: -->
+
+    <ul>
+        <li>element_1</li>
+        <li>element_2</li>
+        <li>element_3</li>
+        <li>element_4</li>
+        <li>element_5</li>
+        <li>element_6</li>
+        <li>element_7</li>
+        <li>element_8</li>
+        <li>element_9</li>
+        <li>element_10</li>
+    </ul>
+
+    
+
+</body>
+</html>

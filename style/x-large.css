@@ -1,0 +1,9 @@
+.single_place {
+	width: 23%;
+}
+
+
+.all_trips {
+	min-height: calc(100vh - 56px);
+
+}

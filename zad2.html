@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            color: blue;
+            border: 2px solid blue;
+            border-radius: 5px;
+            position: relative;
+            display: inline-block;
+            width: 150px;
+            line-height: 40px;
+            overflow: hidden;
+
+        }
+
+        button::before {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.578);
+            width: 40px;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            transform: skewX(-45deg);
+            left: -65px;
+        }
+
+        button:hover {
+            color: white;
+            background-color: blue;
+        }
+
+        button:hover::before {
+            transform: skewX(-45deg) translateX(250px);
+            transition: 2s;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <button class="button">wyślij wiadomość</button>
+</body>
+
+</html>

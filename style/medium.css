@@ -1,0 +1,32 @@
+.flex_row_container_medium {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.single_place {
+	width: 48%;
+}
+
+/*.text {
+	height: 90%;
+}*/
+
+.button {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: stretch;
+}
+
+.tavel {
+    min-height: 100vh;
+}
+
+.all_trips {
+	min-height: calc(100vh - 56px);
+
+}
+
